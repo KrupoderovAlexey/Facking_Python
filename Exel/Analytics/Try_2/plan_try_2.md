@@ -1,4 +1,6 @@
 1:   
+  ->  Строк - 25,   Столбцов - дох...   
+   
 import csv
 with open(r"C:\Users\user\Desktop\Shit_EXEL_2.csv", mode='r', encoding='utf-8') as f:
     reader = csv.reader(f, delimiter=';')
@@ -9,3 +11,12 @@ tape = """ str;str;float;float;float;int;str;str;str;str;str;str;str;float;str;s
 tape_new = tape.split(';')
 for i in range(len(fr)):
     print(f"{i+1:<4} {fr[i]:<24} {item_translit[i]:<25} {tape_new[i]:<10}")
+
+2:   
+  ->     
+   
+  ->     
+
+
+3:   
+  ->     
